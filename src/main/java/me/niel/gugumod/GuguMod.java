@@ -1,8 +1,10 @@
 package me.niel.gugumod;
 
+import me.niel.gugumod.entity.GuguEntity;
 import me.niel.gugumod.entity.ModEntityTypes;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
@@ -23,6 +25,8 @@ public class GuguMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModEntityTypes.initialize();
+
+		FabricDefaultAttributeRegistry.register(ModEntityTypes.GUGU, GuguEntity.createGuguAttributes());
 
 		LOGGER.info("Gugu Mod inicializado");
 	}

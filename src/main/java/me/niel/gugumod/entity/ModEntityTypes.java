@@ -14,7 +14,7 @@ public class ModEntityTypes {
 
     public static final EntityType<GuguEntity> GUGU = register(
             ModEntityTypeIds.GUGU,
-            EntityType.Builder.<GuguEntity>of(GuguEntity::new, MobCategory.MISC).sized(0.75f, 1.75f),
+            EntityType.Builder.of(GuguEntity::new, MobCategory.MISC).sized(0.6f, 1.8f),
             GuguEntity.createGuguAttributes()
     );
 

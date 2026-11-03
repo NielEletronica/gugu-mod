@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "gugu-mod",
 	"version": "${version}",
-	"name": "Gugu Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Gugu's Mod",
+	"description": "O mod do guguzinho >.<",
 	"authors": [
-		"Me!"
+		"Niel"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://youtube.com/@NielEletronica",
+		"sources": "https://github.com/NielEletronica/gugu-mod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/gugu-mod/icon.png",

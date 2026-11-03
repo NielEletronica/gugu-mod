@@ -7,10 +7,10 @@ import net.minecraft.world.entity.EntityType;
 
 public class ModEntityTypeIds {
 
-    public static ResourceKey<EntityType<?>> GUGU = create("gugu");
+    public static ResourceKey<EntityType<?>> GUGU = create();
 
-    private static ResourceKey<EntityType<?>> create(String name) {
-        return ResourceKey.create(Registries.ENTITY_TYPE, GuguMod.id(name));
+    private static ResourceKey<EntityType<?>> create() {
+        return ResourceKey.create(Registries.ENTITY_TYPE, GuguMod.id("gugu"));
     }
 
 }
