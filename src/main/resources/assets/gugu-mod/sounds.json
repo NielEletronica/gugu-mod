@@ -1,0 +1,14 @@
+{
+  "sai_de_perto": {
+    "subtitle": "sound.gugu-mod.sai_de_perto",
+    "sounds": ["gugu-mod:sai_de_perto"]
+  },
+  "quebrei_meu_dedo": {
+    "subtitle": "sound.gugu-mod.quebrei_meu_dedo",
+    "sounds": ["gugu-mod:quebrei_meu_dedo"]
+  },
+  "ai_meu_coracao": {
+    "subtitle": "sound.gugu-mod.ai_meu_coracao",
+    "sounds": ["gugu-mod:ai_meu_coracao"]
+  }
+}
